@@ -1,0 +1,3222 @@
+{
+  "nodes": [
+    {
+      "id": "backtest",
+      "label": "backtest.py",
+      "file_type": "code",
+      "source_file": "backtest.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backtest_trade",
+      "label": "Trade",
+      "file_type": "code",
+      "source_file": "backtest.py",
+      "source_location": "L36",
+      "_origin": "ast"
+    },
+    {
+      "id": "backtest_trade_pnl",
+      "label": ".pnl()",
+      "file_type": "code",
+      "source_file": "backtest.py",
+      "source_location": "L48",
+      "_origin": "ast"
+    },
+    {
+      "id": "backtest_trade_r_multiple",
+      "label": ".r_multiple()",
+      "file_type": "code",
+      "source_file": "backtest.py",
+      "source_location": "L52",
+      "_origin": "ast"
+    },
+    {
+      "id": "backtest_position_size",
+      "label": "position_size()",
+      "file_type": "code",
+      "source_file": "backtest.py",
+      "source_location": "L58",
+      "_origin": "ast"
+    },
+    {
+      "id": "backtest_run_stage1_only",
+      "label": "run_stage1_only()",
+      "file_type": "code",
+      "source_file": "backtest.py",
+      "source_location": "L64",
+      "_origin": "ast"
+    },
+    {
+      "id": "backtest_py_dataframe",
+      "label": "DataFrame",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backtest_simulate_intraday_exit",
+      "label": "_simulate_intraday_exit()",
+      "file_type": "code",
+      "source_file": "backtest.py",
+      "source_location": "L87",
+      "_origin": "ast"
+    },
+    {
+      "id": "backtest_py_timestamp",
+      "label": "Timestamp",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backtest_run_stage1_plus_stage2",
+      "label": "run_stage1_plus_stage2()",
+      "file_type": "code",
+      "source_file": "backtest.py",
+      "source_location": "L104",
+      "_origin": "ast"
+    },
+    {
+      "id": "backtest_rationale_1",
+      "label": "Runs both stages across historical range, applies position sizing/exits, logs tr",
+      "file_type": "rationale",
+      "source_file": "backtest.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "check_real_data",
+      "label": "check_real_data.py",
+      "file_type": "code",
+      "source_file": "check_real_data.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "check_real_data_load",
+      "label": "_load()",
+      "file_type": "code",
+      "source_file": "check_real_data.py",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "check_real_data_py_path",
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "check_real_data_py_dataframe",
+      "label": "DataFrame",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "check_real_data_rationale_1",
+      "label": "One-off sanity check: does the Engine I pipeline work against real Kite data?  L",
+      "file_type": "rationale",
+      "source_file": "check_real_data.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "config",
+      "label": "config.py",
+      "file_type": "code",
+      "source_file": "config.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "config_rationale_1",
+      "label": "Universe, thresholds, capital sizing, and feature toggles for Engine I -- the sa",
+      "file_type": "rationale",
+      "source_file": "config.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "confirm_intraday",
+      "label": "confirm_intraday.py",
+      "file_type": "code",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "confirm_intraday_confirmation",
+      "label": "Confirmation",
+      "file_type": "code",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L37",
+      "_origin": "ast"
+    },
+    {
+      "id": "confirm_intraday_first_15min_volume",
+      "label": "_first_15min_volume()",
+      "file_type": "code",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L46",
+      "_origin": "ast"
+    },
+    {
+      "id": "confirm_intraday_py_dataframe",
+      "label": "DataFrame",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "confirm_intraday_avg_first_15min_volume",
+      "label": "_avg_first_15min_volume()",
+      "file_type": "code",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L50",
+      "_origin": "ast"
+    },
+    {
+      "id": "confirm_intraday_confirm_symbol",
+      "label": "confirm_symbol()",
+      "file_type": "code",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L56",
+      "_origin": "ast"
+    },
+    {
+      "id": "confirm_intraday_py_timestamp",
+      "label": "Timestamp",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "confirm_intraday_rank_candidates",
+      "label": "rank_candidates()",
+      "file_type": "code",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L102",
+      "_origin": "ast"
+    },
+    {
+      "id": "confirm_intraday_rationale_1",
+      "label": "Stage 2 -- intraday confirmation on 5-min bars.  For each Stage-1 watchlist symb",
+      "file_type": "rationale",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "confirm_intraday_rationale_58",
+      "label": "intraday_bars covers up through session_date; daily_bars covers the days before",
+      "file_type": "rationale",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L58",
+      "_origin": "ast"
+    },
+    {
+      "id": "confirm_intraday_rationale_103",
+      "label": "(primary, backups) -- ranked by relative_volume + vwap_distance, highest first.",
+      "file_type": "rationale",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L103",
+      "_origin": "ast"
+    },
+    {
+      "id": "data_fetch",
+      "label": "data_fetch.py",
+      "file_type": "code",
+      "source_file": "data_fetch.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "data_fetch_load_pickle",
+      "label": "_load_pickle()",
+      "file_type": "code",
+      "source_file": "data_fetch.py",
+      "source_location": "L36",
+      "_origin": "ast"
+    },
+    {
+      "id": "data_fetch_py_path",
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "data_fetch_save_pickle",
+      "label": "_save_pickle()",
+      "file_type": "code",
+      "source_file": "data_fetch.py",
+      "source_location": "L43",
+      "_origin": "ast"
+    },
+    {
+      "id": "data_fetch_resolve_tokens",
+      "label": "resolve_tokens()",
+      "file_type": "code",
+      "source_file": "data_fetch.py",
+      "source_location": "L49",
+      "_origin": "ast"
+    },
+    {
+      "id": "data_fetch_clean",
+      "label": "_clean()",
+      "file_type": "code",
+      "source_file": "data_fetch.py",
+      "source_location": "L61",
+      "_origin": "ast"
+    },
+    {
+      "id": "data_fetch_py_dataframe",
+      "label": "DataFrame",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "data_fetch_fetch_chunked",
+      "label": "_fetch_chunked()",
+      "file_type": "code",
+      "source_file": "data_fetch.py",
+      "source_location": "L73",
+      "_origin": "ast"
+    },
+    {
+      "id": "data_fetch_py_timestamp",
+      "label": "Timestamp",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "data_fetch_fetch_daily_bars",
+      "label": "fetch_daily_bars()",
+      "file_type": "code",
+      "source_file": "data_fetch.py",
+      "source_location": "L98",
+      "_origin": "ast"
+    },
+    {
+      "id": "data_fetch_fetch_intraday_bars",
+      "label": "fetch_intraday_bars()",
+      "file_type": "code",
+      "source_file": "data_fetch.py",
+      "source_location": "L112",
+      "_origin": "ast"
+    },
+    {
+      "id": "data_fetch_rationale_1",
+      "label": "Kite Connect historical-data wrappers.  Kite's historical API caps the date span",
+      "file_type": "rationale",
+      "source_file": "data_fetch.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "data_fetch_rationale_50",
+      "label": "symbol -> instrument_token, via a single instruments() dump (cached in-process).",
+      "file_type": "rationale",
+      "source_file": "data_fetch.py",
+      "source_location": "L50",
+      "_origin": "ast"
+    },
+    {
+      "id": "data_fetch_rationale_75",
+      "label": "Kite rejects requests spanning more than _MAX_SPAN_DAYS[interval] -- walk     ba",
+      "file_type": "rationale",
+      "source_file": "data_fetch.py",
+      "source_location": "L75",
+      "_origin": "ast"
+    },
+    {
+      "id": "indicators",
+      "label": "indicators.py",
+      "file_type": "code",
+      "source_file": "indicators.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "indicators_atr",
+      "label": "atr()",
+      "file_type": "code",
+      "source_file": "indicators.py",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "indicators_py_dataframe",
+      "label": "DataFrame",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "indicators_py_series",
+      "label": "Series",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "indicators_rsi",
+      "label": "rsi()",
+      "file_type": "code",
+      "source_file": "indicators.py",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "indicators_macd",
+      "label": "macd()",
+      "file_type": "code",
+      "source_file": "indicators.py",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "indicators_relative_volume",
+      "label": "relative_volume()",
+      "file_type": "code",
+      "source_file": "indicators.py",
+      "source_location": "L30",
+      "_origin": "ast"
+    },
+    {
+      "id": "indicators_session_vwap",
+      "label": "session_vwap()",
+      "file_type": "code",
+      "source_file": "indicators.py",
+      "source_location": "L34",
+      "_origin": "ast"
+    },
+    {
+      "id": "indicators_rationale_1",
+      "label": "RSI, MACD, VWAP, ATR, relative volume -- shared by the EOD screen and intraday c",
+      "file_type": "rationale",
+      "source_file": "indicators.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "indicators_rationale_35",
+      "label": "Cumulative VWAP reset at each session's first bar. intraday_bars.index is     na",
+      "file_type": "rationale",
+      "source_file": "indicators.py",
+      "source_location": "L35",
+      "_origin": "ast"
+    },
+    {
+      "id": "kite_auth",
+      "label": "kite_auth.py",
+      "file_type": "code",
+      "source_file": "kite_auth.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "kite_auth_get_kite",
+      "label": "get_kite()",
+      "file_type": "code",
+      "source_file": "kite_auth.py",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "kiteconnect",
+      "label": "KiteConnect",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "kite_auth_rationale_1",
+      "label": "Kite Connect daily login. Access tokens expire every day (~6am IST reset), so th",
+      "file_type": "rationale",
+      "source_file": "kite_auth.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "kite_auth_rationale_25",
+      "label": "Returns an authenticated KiteConnect client, reusing today's cached token     if",
+      "file_type": "rationale",
+      "source_file": "kite_auth.py",
+      "source_location": "L25",
+      "_origin": "ast"
+    },
+    {
+      "id": "report",
+      "label": "report.py",
+      "file_type": "code",
+      "source_file": "report.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "report_metrics",
+      "label": "metrics()",
+      "file_type": "code",
+      "source_file": "report.py",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "report_write_trade_log",
+      "label": "write_trade_log()",
+      "file_type": "code",
+      "source_file": "report.py",
+      "source_location": "L31",
+      "_origin": "ast"
+    },
+    {
+      "id": "report_plot_equity_curve",
+      "label": "plot_equity_curve()",
+      "file_type": "code",
+      "source_file": "report.py",
+      "source_location": "L43",
+      "_origin": "ast"
+    },
+    {
+      "id": "report_print_report",
+      "label": "print_report()",
+      "file_type": "code",
+      "source_file": "report.py",
+      "source_location": "L62",
+      "_origin": "ast"
+    },
+    {
+      "id": "report_rationale_1",
+      "label": "Trade log CSV, win rate, profit factor, avg R, max drawdown, equity curve chart.",
+      "file_type": "rationale",
+      "source_file": "report.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "run_backtest",
+      "label": "run_backtest.py",
+      "file_type": "code",
+      "source_file": "run_backtest.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "run_backtest_rationale_1",
+      "label": "Fetches data via Kite Connect, runs both stages, writes reports. Backtest-only,",
+      "file_type": "rationale",
+      "source_file": "run_backtest.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "screener_eod",
+      "label": "screener_eod.py",
+      "file_type": "code",
+      "source_file": "screener_eod.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "screener_eod_screen_ticker",
+      "label": "screen_ticker()",
+      "file_type": "code",
+      "source_file": "screener_eod.py",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "screener_eod_py_dataframe",
+      "label": "DataFrame",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "screener_eod_py_series",
+      "label": "Series",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "screener_eod_build_watchlists",
+      "label": "build_watchlists()",
+      "file_type": "code",
+      "source_file": "screener_eod.py",
+      "source_location": "L23",
+      "_origin": "ast"
+    },
+    {
+      "id": "screener_eod_py_timestamp",
+      "label": "Timestamp",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "screener_eod_rationale_1",
+      "label": "Stage 1 -- EOD screen on daily bars, unlimited history.  For each ticker, each d",
+      "file_type": "rationale",
+      "source_file": "screener_eod.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "screener_eod_rationale_16",
+      "label": "Returns a bool Series aligned to bars.index -- True on days that pass all 3 chec",
+      "file_type": "rationale",
+      "source_file": "screener_eod.py",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "screener_eod_rationale_24",
+      "label": "date -> tickers that passed the Stage 1 screen on that date, i.e. the     watchl",
+      "file_type": "rationale",
+      "source_file": "screener_eod.py",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_smoke",
+      "label": "test_smoke.py",
+      "file_type": "code",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_smoke_fake_daily_bars",
+      "label": "_fake_daily_bars()",
+      "file_type": "code",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_smoke_py_dataframe",
+      "label": "DataFrame",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_smoke_fake_intraday_day",
+      "label": "_fake_intraday_day()",
+      "file_type": "code",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L30",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_smoke_test_indicators_run_and_bounded",
+      "label": "test_indicators_run_and_bounded()",
+      "file_type": "code",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L41",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_smoke_test_session_vwap_within_day_range",
+      "label": "test_session_vwap_within_day_range()",
+      "file_type": "code",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L51",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_smoke_test_screen_ticker_flags_injected_signal",
+      "label": "test_screen_ticker_flags_injected_signal()",
+      "file_type": "code",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L58",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_smoke_test_position_size_uses_capital_pct",
+      "label": "test_position_size_uses_capital_pct()",
+      "file_type": "code",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L65",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_smoke_test_simulate_intraday_exit_hits_stop",
+      "label": "test_simulate_intraday_exit_hits_stop()",
+      "file_type": "code",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L70",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_smoke_test_confirm_symbol_rejects_without_gap",
+      "label": "test_confirm_symbol_rejects_without_gap()",
+      "file_type": "code",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L78",
+      "_origin": "ast"
+    },
+    {
+      "id": "tests_test_smoke_test_run_stage1_only_produces_trades",
+      "label": "test_run_stage1_only_produces_trades()",
+      "file_type": "code",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L87",
+      "_origin": "ast"
+    }
+  ],
+  "edges": [
+    {
+      "source": "backtest",
+      "target": "dataclasses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest",
+      "target": "pandas",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest",
+      "target": "config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest",
+      "target": "confirm_intraday",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest",
+      "target": "indicators",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest",
+      "target": "screener_eod",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest",
+      "target": "backtest_trade",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest_trade",
+      "target": "backtest_trade_pnl",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest_trade",
+      "target": "backtest_trade_r_multiple",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest",
+      "target": "backtest_position_size",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L58",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest",
+      "target": "backtest_run_stage1_only",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest_run_stage1_only",
+      "target": "backtest_py_dataframe",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest_run_stage1_only",
+      "target": "backtest_trade",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest",
+      "target": "backtest_simulate_intraday_exit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest_simulate_intraday_exit",
+      "target": "backtest_py_dataframe",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest_simulate_intraday_exit",
+      "target": "backtest_py_timestamp",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest",
+      "target": "backtest_run_stage1_plus_stage2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest_run_stage1_plus_stage2",
+      "target": "backtest_py_dataframe",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest_run_stage1_plus_stage2",
+      "target": "backtest_py_dataframe",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest_run_stage1_plus_stage2",
+      "target": "backtest_trade",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest_run_stage1_only",
+      "target": "backtest_position_size",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L74",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest_run_stage1_only",
+      "target": "backtest_trade",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L77",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest_run_stage1_plus_stage2",
+      "target": "backtest_py_timestamp",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L110",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest_run_stage1_plus_stage2",
+      "target": "backtest_position_size",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L144",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest_run_stage1_plus_stage2",
+      "target": "backtest_simulate_intraday_exit",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L147",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest_run_stage1_plus_stage2",
+      "target": "backtest_trade",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L149",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest_rationale_1",
+      "target": "backtest",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "check_real_data",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "check_real_data.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "check_real_data",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "check_real_data.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "check_real_data",
+      "target": "pandas",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "check_real_data.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "check_real_data",
+      "target": "backtest",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "check_real_data.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "check_real_data",
+      "target": "report",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "check_real_data.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "check_real_data",
+      "target": "check_real_data_load",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "check_real_data.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "check_real_data_load",
+      "target": "check_real_data_py_path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "check_real_data.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "check_real_data_load",
+      "target": "check_real_data_py_dataframe",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "check_real_data.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "check_real_data_load",
+      "target": "check_real_data_py_dataframe",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "check_real_data.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "check_real_data_rationale_1",
+      "target": "check_real_data",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "check_real_data.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "config_rationale_1",
+      "target": "config",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "config.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday",
+      "target": "dataclasses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday",
+      "target": "pandas",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday",
+      "target": "config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday",
+      "target": "indicators",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday",
+      "target": "confirm_intraday_confirmation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday",
+      "target": "confirm_intraday_first_15min_volume",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday_first_15min_volume",
+      "target": "confirm_intraday_py_dataframe",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday",
+      "target": "confirm_intraday_avg_first_15min_volume",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday_avg_first_15min_volume",
+      "target": "confirm_intraday_py_dataframe",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday",
+      "target": "confirm_intraday_confirm_symbol",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday_confirm_symbol",
+      "target": "confirm_intraday_py_dataframe",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday_confirm_symbol",
+      "target": "confirm_intraday_py_dataframe",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday_confirm_symbol",
+      "target": "confirm_intraday_py_timestamp",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday_confirm_symbol",
+      "target": "confirm_intraday_confirmation",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday",
+      "target": "confirm_intraday_rank_candidates",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L102",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday_rank_candidates",
+      "target": "confirm_intraday_confirmation",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L102",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday_rank_candidates",
+      "target": "confirm_intraday_confirmation",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L102",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday_rank_candidates",
+      "target": "confirm_intraday_confirmation",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L102",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday_avg_first_15min_volume",
+      "target": "confirm_intraday_first_15min_volume",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday_confirm_symbol",
+      "target": "confirm_intraday_confirmation",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday_confirm_symbol",
+      "target": "confirm_intraday_avg_first_15min_volume",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L77",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday_confirm_symbol",
+      "target": "confirm_intraday_first_15min_volume",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday_rationale_1",
+      "target": "confirm_intraday",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday_rationale_58",
+      "target": "confirm_intraday_confirm_symbol",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L58",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday_rationale_103",
+      "target": "confirm_intraday_rank_candidates",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L103",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch",
+      "target": "pickle",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch",
+      "target": "time",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch",
+      "target": "pandas",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch",
+      "target": "requests",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch",
+      "target": "config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch",
+      "target": "data_fetch_load_pickle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch_load_pickle",
+      "target": "data_fetch_py_path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch",
+      "target": "data_fetch_save_pickle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch_save_pickle",
+      "target": "data_fetch_py_path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch",
+      "target": "data_fetch_resolve_tokens",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch",
+      "target": "data_fetch_clean",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch_clean",
+      "target": "data_fetch_py_dataframe",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch",
+      "target": "data_fetch_fetch_chunked",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch_fetch_chunked",
+      "target": "data_fetch_py_timestamp",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch_fetch_chunked",
+      "target": "data_fetch_py_timestamp",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch_fetch_chunked",
+      "target": "data_fetch_py_dataframe",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch",
+      "target": "data_fetch_fetch_daily_bars",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch_fetch_daily_bars",
+      "target": "data_fetch_py_dataframe",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch",
+      "target": "data_fetch_fetch_intraday_bars",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L112",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch_fetch_intraday_bars",
+      "target": "data_fetch_py_dataframe",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L112",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch_clean",
+      "target": "data_fetch_py_dataframe",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch_fetch_chunked",
+      "target": "data_fetch_clean",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L90",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch_fetch_daily_bars",
+      "target": "data_fetch_load_pickle",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L101",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch_fetch_daily_bars",
+      "target": "data_fetch_fetch_chunked",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L106",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch_fetch_daily_bars",
+      "target": "data_fetch_save_pickle",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L108",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch_fetch_intraday_bars",
+      "target": "data_fetch_load_pickle",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L115",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch_fetch_intraday_bars",
+      "target": "data_fetch_fetch_chunked",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L121",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch_fetch_intraday_bars",
+      "target": "data_fetch_save_pickle",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L123",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch_rationale_1",
+      "target": "data_fetch",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch_rationale_50",
+      "target": "data_fetch_resolve_tokens",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "data_fetch_rationale_75",
+      "target": "data_fetch_fetch_chunked",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "data_fetch.py",
+      "source_location": "L75",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "indicators",
+      "target": "pandas",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "indicators.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "indicators",
+      "target": "indicators_atr",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "indicators.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "indicators_atr",
+      "target": "indicators_py_dataframe",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "indicators.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "indicators_atr",
+      "target": "indicators_py_series",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "indicators.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "indicators",
+      "target": "indicators_rsi",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "indicators.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "indicators_rsi",
+      "target": "indicators_py_series",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "indicators.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "indicators_rsi",
+      "target": "indicators_py_series",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "indicators.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "indicators",
+      "target": "indicators_macd",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "indicators.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "indicators_macd",
+      "target": "indicators_py_series",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "indicators.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "indicators_macd",
+      "target": "indicators_py_series",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "indicators.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "indicators_macd",
+      "target": "indicators_py_series",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "indicators.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "indicators",
+      "target": "indicators_relative_volume",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "indicators.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "indicators_relative_volume",
+      "target": "indicators_py_series",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "indicators.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "indicators_relative_volume",
+      "target": "indicators_py_series",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "indicators.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "indicators",
+      "target": "indicators_session_vwap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "indicators.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "indicators_session_vwap",
+      "target": "indicators_py_dataframe",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "indicators.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "indicators_session_vwap",
+      "target": "indicators_py_series",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "indicators.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "indicators_rationale_1",
+      "target": "indicators",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "indicators.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "indicators_rationale_35",
+      "target": "indicators_session_vwap",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "indicators.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "kite_auth",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "kite_auth.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "kite_auth",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "kite_auth.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "kite_auth",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "kite_auth.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "kite_auth",
+      "target": "dotenv",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "kite_auth.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "kite_auth",
+      "target": "kiteconnect",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "kite_auth.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "kite_auth",
+      "target": "kite_auth_get_kite",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kite_auth.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "kite_auth_get_kite",
+      "target": "kiteconnect",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "kite_auth.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "kite_auth_get_kite",
+      "target": "kiteconnect",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "kite_auth.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "kite_auth_rationale_1",
+      "target": "kite_auth",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "kite_auth.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "kite_auth_rationale_25",
+      "target": "kite_auth_get_kite",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "kite_auth.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "report",
+      "target": "csv",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "report.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "report",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "report.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "report",
+      "target": "pandas",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "report.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "report",
+      "target": "backtest",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "report.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "report",
+      "target": "config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "report.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "report",
+      "target": "report_metrics",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "report.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "report_metrics",
+      "target": "backtest_trade",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "report.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "report",
+      "target": "report_write_trade_log",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "report.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "report_write_trade_log",
+      "target": "backtest_trade",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "report.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "report",
+      "target": "report_plot_equity_curve",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "report.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "report_plot_equity_curve",
+      "target": "backtest_trade",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "report.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "report",
+      "target": "report_print_report",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "report.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "report_print_report",
+      "target": "backtest_trade",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "report.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "report_print_report",
+      "target": "report_metrics",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "report.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "report_rationale_1",
+      "target": "report",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "report.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_backtest",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_backtest.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_backtest",
+      "target": "backtest",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_backtest.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_backtest",
+      "target": "config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_backtest.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_backtest",
+      "target": "data_fetch",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_backtest.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_backtest",
+      "target": "kite_auth",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_backtest.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_backtest",
+      "target": "report",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_backtest.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_backtest_rationale_1",
+      "target": "run_backtest",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "run_backtest.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "screener_eod",
+      "target": "pandas",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "screener_eod.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "screener_eod",
+      "target": "config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "screener_eod.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "screener_eod",
+      "target": "indicators",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "screener_eod.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "screener_eod",
+      "target": "screener_eod_screen_ticker",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "screener_eod.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "screener_eod_screen_ticker",
+      "target": "screener_eod_py_dataframe",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "screener_eod.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "screener_eod_screen_ticker",
+      "target": "screener_eod_py_series",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "screener_eod.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "screener_eod",
+      "target": "screener_eod_build_watchlists",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "screener_eod.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "screener_eod_build_watchlists",
+      "target": "screener_eod_py_dataframe",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "screener_eod.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "screener_eod_build_watchlists",
+      "target": "screener_eod_py_timestamp",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "screener_eod.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "screener_eod_build_watchlists",
+      "target": "screener_eod_screen_ticker",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "screener_eod.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "screener_eod_rationale_1",
+      "target": "screener_eod",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "screener_eod.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "screener_eod_rationale_16",
+      "target": "screener_eod_screen_ticker",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "screener_eod.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "screener_eod_rationale_24",
+      "target": "screener_eod_build_watchlists",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "screener_eod.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "numpy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "pandas",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "backtest",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "confirm_intraday",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "indicators",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "screener_eod",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "tests_test_smoke_fake_daily_bars",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke_fake_daily_bars",
+      "target": "tests_test_smoke_py_dataframe",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "tests_test_smoke_fake_intraday_day",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke_fake_intraday_day",
+      "target": "tests_test_smoke_py_dataframe",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "tests_test_smoke_test_indicators_run_and_bounded",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "tests_test_smoke_test_session_vwap_within_day_range",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "tests_test_smoke_test_screen_ticker_flags_injected_signal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L58",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "tests_test_smoke_test_position_size_uses_capital_pct",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "tests_test_smoke_test_simulate_intraday_exit_hits_stop",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L70",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "tests_test_smoke_test_confirm_symbol_rejects_without_gap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "tests_test_smoke_test_run_stage1_only_produces_trades",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke_fake_daily_bars",
+      "target": "tests_test_smoke_py_dataframe",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke_fake_intraday_day",
+      "target": "tests_test_smoke_py_dataframe",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke_test_indicators_run_and_bounded",
+      "target": "tests_test_smoke_fake_daily_bars",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke_test_session_vwap_within_day_range",
+      "target": "tests_test_smoke_fake_intraday_day",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke_test_screen_ticker_flags_injected_signal",
+      "target": "tests_test_smoke_fake_daily_bars",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke_test_simulate_intraday_exit_hits_stop",
+      "target": "tests_test_smoke_fake_intraday_day",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L71",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke_test_confirm_symbol_rejects_without_gap",
+      "target": "tests_test_smoke_fake_daily_bars",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke_test_confirm_symbol_rejects_without_gap",
+      "target": "tests_test_smoke_fake_intraday_day",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L81",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke_test_run_stage1_only_produces_trades",
+      "target": "tests_test_smoke_fake_daily_bars",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L88",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest",
+      "target": "confirm_intraday_confirm_symbol",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest",
+      "target": "confirm_intraday_rank_candidates",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest",
+      "target": "indicators_atr",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest",
+      "target": "screener_eod_build_watchlists",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "check_real_data",
+      "target": "backtest_run_stage1_only",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "check_real_data.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "check_real_data",
+      "target": "backtest_run_stage1_plus_stage2",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "check_real_data.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "check_real_data",
+      "target": "report_print_report",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "check_real_data.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday",
+      "target": "indicators_macd",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday",
+      "target": "indicators_rsi",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday",
+      "target": "indicators_session_vwap",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "report",
+      "target": "backtest_trade",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "report.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_backtest",
+      "target": "backtest_run_stage1_only",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_backtest.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_backtest",
+      "target": "backtest_run_stage1_plus_stage2",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_backtest.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_backtest",
+      "target": "data_fetch_fetch_daily_bars",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_backtest.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_backtest",
+      "target": "data_fetch_fetch_intraday_bars",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_backtest.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_backtest",
+      "target": "data_fetch_resolve_tokens",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_backtest.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_backtest",
+      "target": "kite_auth_get_kite",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_backtest.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_backtest",
+      "target": "report_plot_equity_curve",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_backtest.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_backtest",
+      "target": "report_print_report",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_backtest.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "run_backtest",
+      "target": "report_write_trade_log",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_backtest.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "screener_eod",
+      "target": "indicators_relative_volume",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "screener_eod.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "backtest_simulate_intraday_exit",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "backtest_position_size",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "backtest_run_stage1_only",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "confirm_intraday_confirm_symbol",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "indicators_macd",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "indicators_relative_volume",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "indicators_rsi",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "indicators_session_vwap",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke",
+      "target": "screener_eod_screen_ticker",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest_run_stage1_only",
+      "target": "screener_eod_build_watchlists",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest_run_stage1_plus_stage2",
+      "target": "screener_eod_build_watchlists",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L106",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest_run_stage1_plus_stage2",
+      "target": "confirm_intraday_confirm_symbol",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L127",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest_run_stage1_plus_stage2",
+      "target": "confirm_intraday_rank_candidates",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L129",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backtest_run_stage1_plus_stage2",
+      "target": "indicators_atr",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backtest.py",
+      "source_location": "L138",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday_confirm_symbol",
+      "target": "indicators_session_vwap",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L83",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday_confirm_symbol",
+      "target": "indicators_rsi",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "confirm_intraday_confirm_symbol",
+      "target": "indicators_macd",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "confirm_intraday.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "screener_eod_screen_ticker",
+      "target": "indicators_relative_volume",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "screener_eod.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke_test_indicators_run_and_bounded",
+      "target": "indicators_rsi",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke_test_indicators_run_and_bounded",
+      "target": "indicators_macd",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke_test_indicators_run_and_bounded",
+      "target": "indicators_relative_volume",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke_test_session_vwap_within_day_range",
+      "target": "indicators_session_vwap",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke_test_screen_ticker_flags_injected_signal",
+      "target": "screener_eod_screen_ticker",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke_test_position_size_uses_capital_pct",
+      "target": "backtest_position_size",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke_test_simulate_intraday_exit_hits_stop",
+      "target": "backtest_simulate_intraday_exit",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke_test_confirm_symbol_rejects_without_gap",
+      "target": "confirm_intraday_confirm_symbol",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "tests_test_smoke_test_run_stage1_only_produces_trades",
+      "target": "backtest_run_stage1_only",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smoke.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "_origin": "ast"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
